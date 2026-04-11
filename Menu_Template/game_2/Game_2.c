@@ -64,7 +64,7 @@ MenuState Game2_Run(void) {
         LCD_Fill_Buffer(0);
         
         // Title
-        LCD_printString("GAME 2", 60, 10, 1, 3);
+        LCD_printString("GAME 2 Y", 60, 10, 1, 3);
         
         // Simple animated object (moving box, vertical)
         LCD_printString("[+]", 100, 60 + moving_y, 1, 3);
